@@ -20,12 +20,12 @@ function About() {
     <div className='container text-light'>
       <div className='row'>
 
-        <div className='col-7 my-4 py-4'>
+        <div className='col-lg-7 my-4 py-4'>
       <h1 className='my-1 py-1'> Who we are</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </div>
 
-      <div className=' row col-5 my-4 py-4'>
+      <div className='stats_header row col-lg-5 my-4 py-4'>
         
         <div className='col-6 scores'>
           <h2>350</h2>
@@ -54,7 +54,7 @@ function About() {
 
     <div className='container-fluid mt-5 text-light our_teams'>
 
-      <div className='team_header text-dark'>
+      <div className='team_header'>
       <h1>Our Expert Specialists, led by our visionary CEO, excels in delivering top-notch solutions.</h1>
       <p>At Michin Divine Solution Natural Health Care, our CEO prioritizes strong relationships and customer feedback. These values drive our business success and enable us to provide exceptional holistic health care solutions.</p>
       </div>
@@ -62,21 +62,21 @@ function About() {
       <div className='container text-dark'>
         <div className='row  team_row'>
 
-          <div className='col-4 col_team'>
+          <div className='col-lg-4 col_team'>
             <img src={dp} alt='team__member_dp' width="50%" />
             <h4>Mr. CEO</h4>
             <h6>creative leader</h6> <br />
             <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
           </div>
 
-<div className='col-4 col_team'>
+<div className='col-lg-4 col_team'>
   <img src={dp} alt='team__member_dp' width="50%" />
   <h4>Mr. CEO</h4>
             <h6>creative leader</h6> <br />
             <p>Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
 </div>
 
-<div className='col-4 col_team'>
+<div className='col-lg-4 col_team'>
   <img src={dp} alt='team__member_dp' width="50%" />
   <h4>Mr. CEO</h4>
             <h6>creative leader</h6> <br />

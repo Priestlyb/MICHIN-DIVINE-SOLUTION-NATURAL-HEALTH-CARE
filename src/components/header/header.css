@@ -44,7 +44,7 @@
 
 @media (max-width: 991.98px) {
     .header {
-        height: 100vh;
+        height: 95vh;
         padding: 150px 0px;
     }
     .header_title h1 {
