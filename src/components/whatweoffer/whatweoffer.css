@@ -1,0 +1,26 @@
+.whatweoffer {
+    margin-top: 60%;
+    margin-bottom: 50px;
+}
+
+.whatweoffer_title {
+    margin-bottom: 50px;
+}
+
+.whatweoffer_title h2 {
+    padding-bottom: 15px;
+    border-bottom: solid 1px #fff;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    aspect-ratio: 1/1;
+}
+
+@media (max-width: 991.98px) {
+    .whatweoffer {
+        margin-top: 20%;
+        margin-bottom: 50px;
+    }
+}
