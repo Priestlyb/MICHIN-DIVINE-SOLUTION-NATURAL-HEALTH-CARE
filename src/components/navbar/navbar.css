@@ -30,6 +30,10 @@
   background-color: #BE9E6E;
 }
 
+.nav_btn_achor:hover {
+  color: #FFF;
+}
+
 .nav_button {
   display: flex;
 }
@@ -41,7 +45,7 @@
   }
   
   .navbar-nav {
-    margin-top: 0.5rem;
+    margin-top: 1rem;
   }
 
   .navbar-brand {
@@ -66,5 +70,9 @@
 
   .nav_btn {
     margin-left: 0px;
+  }
+
+  .nav-item {
+    margin-bottom: 15px;
   }
 }

@@ -1,6 +1,6 @@
-import React from 'react'
-import "./header.css"
-import HeaderSidebar from "../header_sidebar/header_sidebar"
+import React from 'react';
+import HeaderSidebar from "../header_sidebar/header_sidebar";
+import "./header.css";
 
 function Header() {
   return (
@@ -14,7 +14,9 @@ function Header() {
           <br />
           program in the region
         </h2>
-        <button type="button" class="header_btn">JOIN NOW</button>
+        {/* <a href='/contactus'>
+        <button type="button" className="btn header_btn">JOIN NOW</button>
+        </a> */}
       </div>
       
     </div>

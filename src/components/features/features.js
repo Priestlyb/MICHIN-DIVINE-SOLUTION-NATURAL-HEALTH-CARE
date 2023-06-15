@@ -14,7 +14,9 @@ function Features() {
                     At the heart of Quirkville stands a tower that defies conventional construction. It sways gently, constructed entirely from mismatched socks. This tower is home to Dr. Bumblefuzzle, an eccentric professor who brews potions that transform stones into skipping snails and imbues grasshoppers with the essence of grapefruit. Inside his laboratory, rainbow-colored fog swirls within test tubes, and shelves overflow with jars filled with moonbeam fragrances and laughter essences.
                 </p>
 
-                <button type="button" class="features_btn">MORE ABOUT US</button>
+                <a href='/about'>
+                <button type="button" className="features_btn">MORE ABOUT US</button>
+                </a>
 
             </div>
 

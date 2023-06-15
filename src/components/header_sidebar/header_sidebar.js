@@ -1,6 +1,6 @@
 import React from 'react'
 import "./header_sidebar.css"
-import logo from "./logo.png"
+import logo from "./logo1.png"
 
 function HeaderSidebar() {
   return (
@@ -8,7 +8,7 @@ function HeaderSidebar() {
     <div className='header_sidebar'>
 
       <div className='header_sidebar__title'>
-        <img src={logo} alt='logo' width="80%" />
+        <img src={logo} alt='logo' width="100%" />
       </div>
 
       <div className='header_sidebar__footer'>
@@ -38,7 +38,7 @@ function HeaderSidebar() {
           <p>Earn double uppoints every day from women</p>
         </div>
         <div className='col-6 header_footer_left'>
-          <a href='/' >LEARN MORE</a>
+          <a href='/about' >LEARN MORE</a>
         </div>
       </div>
     </div>
