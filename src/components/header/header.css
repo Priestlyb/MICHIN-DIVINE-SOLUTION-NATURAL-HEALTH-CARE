@@ -44,10 +44,12 @@
 
 @media (max-width: 991.98px) {
     .header {
-        height: 95vh;
+        height: 100vh;
         padding: 150px 0px;
+        background-position-y: center;
+        background-position-x: right;
     }
     .header_title h1 {
-        font-size: 1rem;
+        font-size: 1.8rem;
     }
 }
